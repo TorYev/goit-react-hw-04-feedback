@@ -1,0 +1,25 @@
+.button {
+    cursor: pointer;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(
+      to right,
+      #003cc5 0%,
+      #0b63f6 51%,
+      #003cc5 100%
+    );
+  }
+  
+  .button:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .button:hover {
+    background-position: right center;
+  }
